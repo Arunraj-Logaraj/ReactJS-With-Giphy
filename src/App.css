@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(50, 66, 240);
+}
+
+.gifs {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gif {
+  padding: 0 2px;
+}
+
+.Loader {
+  color: rgb(255, 0, 0);
+}
+
+.form {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.input {
+  background-color: rgb(239, 229, 229);
+  padding: 10px;
+  align-self: center;
+  border: 0;
+  border-radius: 10px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-size: 20px;
+  align-self: center;
+  background-color: crimson;
+  color: white;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.btn:hover {
+  background-color: rgb(214, 226, 43);
+}
+.btn:active {
+  color: darkblue;
+  background-color: green;
+}
